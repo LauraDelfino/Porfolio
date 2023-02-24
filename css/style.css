@@ -31,6 +31,19 @@ h4:hover {font-size: 20px;
 	padding: 10px 80px; ;
 	
   }
+
+  @media all and (max-width: 768px) {
+	.my-about p {
+		font-size: 16px;
+		font-family:'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		margin:10px 0px 10px 0px;
+		padding: 10px 40px;
+  }
+  }
+  
+	
 .my-content p{
   font-size: 16px;
   font-family:'Poppins', sans-serif;
@@ -85,7 +98,7 @@ h4:hover {font-size: 20px;
 /*typography e grandezza font per il mobile*/
 @media all and (max-width: 768px) {
   .my-content p{
-  font-size: 10px;
+  font-size: 15px;
 }
 }
 @media all and (max-width: 768px) {
@@ -131,7 +144,7 @@ font-weight: 800;
 #banner.homepageSlider {
 
 		align-items: center;
-		background-image: url("../img/banner_home.jpg");
+		background-image: url("../img/banner.jpg");
 		display: flex;
 		padding: 2em 0 2em 0 ;
 		background-attachment: fixed;
@@ -409,6 +422,19 @@ article.anteprimaArt{
 article.anteprimaArt:hover{
 	transform: scale(1.15);
 }
+
+@media all and (max-width: 768px) {
+	.article.anteprimaArt {
+		transition: none;
+}
+}
+
+@media all and (max-width: 768px) {
+		.article.anteprimaArt:hover {
+			transform: none;
+}
+}
+
 /*articolo Evento futuro*/
 
 /*blocchiADx*/
